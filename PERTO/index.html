@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Christopher T. Lopez Jr • Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<input class="switch" type="radio" name="screen" id="s-home" checked>
+<input class="switch" type="radio" name="screen" id="s-profile">
+<input class="switch" type="radio" name="screen" id="s-about">
+<input class="switch" type="radio" name="screen" id="s-skills">
+<input class="switch" type="radio" name="screen" id="s-html">
+<input class="switch" type="radio" name="screen" id="s-css">
+<input class="switch" type="radio" name="screen" id="s-figma">
+<input class="switch" type="radio" name="screen" id="s-projects">
+
+
+<main class="screens">
+
+  
+  <section class="panel" id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p class="muted">Explore my background, skills, and projects.</p>
+    <div class="actions">
+      <label for="s-profile" class="btn">Enter</label>
+      <a class="btn secondary" href="mailto:christopher@email.com">christopher@email.com</a>
+      <a class="btn secondary" href="tel:+63-900-000-0000">+63 900 000 0000</a>
+    </div>
+  </section>
+
+  
+  <section class="panel" id="profile">
+    <div class="row cols-2">
+      <figure class="avatar">
+        <img src="cj.jpeg" alt="Christopher T. Lopez Jr">
+      </figure>
+      <div>
+        <h1>Christopher T. Lopez Jr</h1>
+        <h2>BSIT – 2D</h2>
+        <div class="actions">
+          <label for="s-about" class="btn">About Me</label>
+          <label for="s-skills" class="btn">Skills</label>
+          <label for="s-projects" class="btn">Project</label>
+        </div>
+        <div class="footer-nav">
+          <label class="btn secondary" for="s-home">Home</label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="panel" id="about">
+    <h1>About Me</h1>
+    <p class="muted">
+      I’m Christopher T. Lopez Jr, 20 years old from Dauispon, Cordova, Cebu.
+      I’m an Information Technology student passionate about programming and web development.
+      I enjoy problem-solving, learning new technologies, and building practical solutions through code.
+    </p>
+    <div class="footer-nav">
+      <label class="btn secondary" for="s-profile">Back</label>
+      <label class="btn" for="s-skills">Go to Skills</label>
+      <label class="btn secondary" for="s-home">Home</label>
+    </div>
+  </section>
+
+  
+  <section class="panel" id="skills">
+    <h1>Skills</h1>
+   
+    <div class="skills">
+      <label class="skill" for="s-html">
+        <b>HTML</b><br><span class="muted">Structure & semantics</span>
+      </label>
+      <label class="skill" for="s-css">
+        <b>CSS</b><br><span class="muted">Layouts & design</span>
+      </label>
+      <label class="skill" for="s-figma">
+        <b>Figma</b><br><span class="muted">UI/UX prototyping</span>
+      </label>
+    </div>
+    <div class="footer-nav">
+      <label class="btn secondary" for="s-profile">Back</label>
+      <label class="btn secondary" for="s-home">Home</label>
+    </div>
+  </section>
+
+  
+  <section class="panel" id="skill-html">
+    <h1>HTML</h1>
+    <div class="muted">
+      HyperText Markup Language: a standardized system for tagging text files
+      to achieve structure, links, images, and media on the Web.
+    </div>
+    <div class="footer-nav">
+      <label class="btn secondary" for="s-skills">Back</label>
+      <label class="btn secondary" for="s-home">Home</label>
+    </div>
+  </section>
+
+  
+  <section class="panel" id="skill-css">
+    <h1>CSS</h1>
+    <p class="muted">
+      Cascading Style Sheets: controls layout, spacing, colors, typography,
+      and responsive design using flex/grid.
+    </p>
+    <div class="footer-nav">
+      <label class="btn secondary" for="s-skills">Back</label>
+      <label class="btn secondary" for="s-home">Home</label>
+    </div>
+  </section>
+
+ 
+  <section class="panel" id="skill-figma">
+    <h1>Figma</h1>
+    <p class="muted">
+      A collaborative design tool for wireframes, UI layouts, components,
+      and prototypes. I use auto-layout and interactive components to iterate quickly.
+    </p>
+    <div class="footer-nav">
+      <label class="btn secondary" for="s-skills">Back</label>
+      <label class="btn secondary" for="s-home">Home</label>
+    </div>
+  </section>
+
+  <section class="panel" id="projects">
+    <h1>Project</h1>
+    <p class="muted">
+      This project website for Nike shoes highlights their stylish designs, advanced technology, <br> and durability for both sports and everyday wear. It aims to give customers an easy way to explore,<br> choose, and purchase the perfect pair while showcasing Nike’s commitment to quality and innovation.
+    </p>
+    <figure class="muted">
+        <img src="project.jpg" alt="project" height="400" width="700">
+      </figure>
+    <div class="footer-nav">
+      <label class="btn secondary" for="s-profile">Back</label>
+      <label class="btn secondary" for="s-home">Home</label>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>
